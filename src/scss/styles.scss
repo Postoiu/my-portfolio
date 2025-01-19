@@ -1,0 +1,11 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+$primary: #4f46e5;
+
+.logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    fill: $primary;
+}

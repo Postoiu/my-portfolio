@@ -7,65 +7,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/mediaqueries.css">
-    <link rel="shortcut icon" href="assets/portofolio-logo.ico" type="image/x-icon">
-    <script src="scripts/main.js" defer></script>
+    <link rel="shortcut icon" href="../assets/portofolio-logo.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="/">
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
-                    <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)">
-                    <path d="M0 5120 l0 -5120 5120 0 5120 0 0 5120 0 5120 -5120 0 -5120 0 0 -5120z m5395 2095 c298 -42 548 -128 790 -273 449 -269 775 -670 934 -1150 59 -178 87 -309 102 -479 34 -384 -47 -796 -223 -1133 -181 -349 -433 -622 -723 -785 -60 -34 -60 -34 -140 -24 -196 24 -354 105 -495 256 -54 58 -373 479 -716 945 -50 67 -212 287 -360 488 -430 582 -411 553 -379 580 8 7 15 16 15 21 0 5 27 35 59 67 45 45 62 57 72 48 9 -8 10 -8 5 1 -7 14 12 58 21 49 3 -3 0 -14 -8 -23 -13 -16 -12 -17 4 -4 10 8 21 10 26 5 13 -15 211 -280 347 -464 140 -188 388 -525 739 -999 121 -164 232 -313 246 -330 l26 -33 89 55 c122 76 249 192 350 317 302 377 359 898 145 1335 -76 155 -162 275 -276 383 -380 363 -912 464 -1403 267 -372 -150 -681 -506 -772 -888 -43 -179 -44 -410 -4 -603 46 -226 199 -488 382 -654 186 -170 451 -295 713 -339 l96 -16 105 -140 c132 -177 232 -290 313 -355 72 -57 205 -130 283 -156 29 -9 50 -20 45 -24 -14 -13 -164 -58 -243 -74 -475 -95 -967 -25 -1380 196 -224 120 -367 226 -531 395 -279 286 -451 595 -545 978 -51 209 -69 516 -44 725 31 251 122 545 226 735 71 128 91 158 213 321 25 32 106 119 180 192 317 312 741 521 1191 586 127 18 400 19 525 1z m-429 -1041 c-3 -8 -2 -12 3 -9 11 6 116 -128 508 -655 165 -223 387 -520 492 -660 105 -140 198 -270 206 -288 15 -29 15 -34 1 -54 -21 -29 -21 -48 0 -22 14 18 15 18 4 -4 -6 -12 -15 -20 -19 -18 -10 7 -81 -68 -81 -85 0 -6 -12 -23 -26 -36 -14 -13 -23 -30 -20 -38 3 -8 0 -17 -6 -21 -7 -4 -8 -3 -4 4 4 7 2 12 -3 12 -11 0 -187 231 -566 745 -125 171 -272 369 -325 440 -221 298 -377 513 -404 555 l-29 45 27 -24 c15 -15 26 -19 26 -12 0 11 3 11 16 0 15 -12 16 -11 9 11 -7 22 -6 23 8 12 12 -11 15 -10 13 4 -1 11 20 27 61 48 35 17 63 36 63 43 0 12 15 21 39 22 8 1 11 -5 7 -15z"/>
-                    </g>
-                </svg>
-            </a>
-        </div>
-        <nav class="desktop-navigation">
-            <ul class="nav-links">
-                <li class="nav-link">
-                    <a href="#about">About</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#experience">Experience</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#projects">Projects</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="hamburger-container">
-            <span class="hamburger-btn"></span>
-        </div>
-        <div class="overlay">
-            <nav class="mobile-navigation">
-                <ul class="nav-links">
-                    <li class="nav-link">
-                        <a href="#about">About</a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" version="1.0" width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000" preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)">
+                        <path d="M0 5120 l0 -5120 5120 0 5120 0 0 5120 0 5120 -5120 0 -5120 0 0 -5120z m5395 2095 c298 -42 548 -128 790 -273 449 -269 775 -670 934 -1150 59 -178 87 -309 102 -479 34 -384 -47 -796 -223 -1133 -181 -349 -433 -622 -723 -785 -60 -34 -60 -34 -140 -24 -196 24 -354 105 -495 256 -54 58 -373 479 -716 945 -50 67 -212 287 -360 488 -430 582 -411 553 -379 580 8 7 15 16 15 21 0 5 27 35 59 67 45 45 62 57 72 48 9 -8 10 -8 5 1 -7 14 12 58 21 49 3 -3 0 -14 -8 -23 -13 -16 -12 -17 4 -4 10 8 21 10 26 5 13 -15 211 -280 347 -464 140 -188 388 -525 739 -999 121 -164 232 -313 246 -330 l26 -33 89 55 c122 76 249 192 350 317 302 377 359 898 145 1335 -76 155 -162 275 -276 383 -380 363 -912 464 -1403 267 -372 -150 -681 -506 -772 -888 -43 -179 -44 -410 -4 -603 46 -226 199 -488 382 -654 186 -170 451 -295 713 -339 l96 -16 105 -140 c132 -177 232 -290 313 -355 72 -57 205 -130 283 -156 29 -9 50 -20 45 -24 -14 -13 -164 -58 -243 -74 -475 -95 -967 -25 -1380 196 -224 120 -367 226 -531 395 -279 286 -451 595 -545 978 -51 209 -69 516 -44 725 31 251 122 545 226 735 71 128 91 158 213 321 25 32 106 119 180 192 317 312 741 521 1191 586 127 18 400 19 525 1z m-429 -1041 c-3 -8 -2 -12 3 -9 11 6 116 -128 508 -655 165 -223 387 -520 492 -660 105 -140 198 -270 206 -288 15 -29 15 -34 1 -54 -21 -29 -21 -48 0 -22 14 18 15 18 4 -4 -6 -12 -15 -20 -19 -18 -10 7 -81 -68 -81 -85 0 -6 -12 -23 -26 -36 -14 -13 -23 -30 -20 -38 3 -8 0 -17 -6 -21 -7 -4 -8 -3 -4 4 4 7 2 12 -3 12 -11 0 -187 231 -566 745 -125 171 -272 369 -325 440 -221 298 -377 513 -404 555 l-29 45 27 -24 c15 -15 26 -19 26 -12 0 11 3 11 16 0 15 -12 16 -11 9 11 -7 22 -6 23 8 12 12 -11 15 -10 13 4 -1 11 20 27 61 48 35 17 63 36 63 43 0 12 15 21 39 22 8 1 11 -5 7 -15z"/>
+                        </g>
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-link">
-                        <a href="#experience">Experience</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
                     </li>
-                    <li class="nav-link">
-                        <a href="#projects">Projects</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-link">
-                        <a href="#contact">Contact</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section id="landing">
             <div class="container">
                 <div class="profile_pic-container">
-                    <img src="assets/profile-pic.png" alt="Profile picture">
+                    <img src="../assets/profile-pic.png" alt="Profile picture">
                 </div>
                 <div class="section_text">
                     <div class="section-header">
@@ -73,7 +54,7 @@
                         <h1 class="section_text-title">Ovidiu Postoiu</h1>
                     </div>
                     <div class="btns-container">
-                        <button class="btn" onclick="window.open('./assets/CV_en.pdf')">Download CV</button>
+                        <button class="btn" onclick="window.open('../assets/CV_en.pdf')">Download CV</button>
                         <button class="btn btn-cta" onclick="location.href='./#contact'">Contact Info</button>
                     </div>
                     <div class="social-links-container">
@@ -97,7 +78,7 @@
             </div>
             <div class="about-section-container">
                 <div class="pic-container">
-                    <img src="assets/about-pic.png" alt="About me picture">
+                    <img src="../assets/about-pic.png" alt="About me picture">
                 </div>
                 <div class="about-details-container">
                     <div class="cards-container">
@@ -255,7 +236,7 @@
             </div>
             <div class="section-container">
                 <div class="card project-card">
-                    <img src="assets/project-1.png" alt="Project 1" class="project-img">
+                    <img src="../assets/project-1.png" alt="Project 1" class="project-img">
                     <h3>Project One</h3>
                     <div class="btn-container">
                         <button class="btn">Github</button>
@@ -263,7 +244,7 @@
                     </div>
                 </div>
                 <div class="card project-card">
-                    <img src="assets/project-2.png" alt="Project 2" class="project-img">
+                    <img src="../assets/project-2.png" alt="Project 2" class="project-img">
                     <h3>Project Two</h3>
                     <div class="btn-container">
                         <button class="btn">Github</button>
@@ -271,7 +252,7 @@
                     </div>
                 </div>
                 <div class="card project-card">
-                    <img src="assets/project-3.png" alt="Project 3" class="project-img">
+                    <img src="../assets/project-3.png" alt="Project 3" class="project-img">
                     <h3>Project Three</h3>
                     <div class="btn-container">
                         <button class="btn">Github</button>
